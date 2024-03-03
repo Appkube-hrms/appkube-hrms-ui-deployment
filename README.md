@@ -1,1 +1,0 @@
-# appkube-hrms-ui-deployment
