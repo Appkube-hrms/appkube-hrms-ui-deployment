@@ -112,7 +112,7 @@ spec:
       name: read-directory
     params:
     - name: directory
-      value: ui-code/build
+      value: ui-code/out
     workspaces:
     - name: local-ws
       workspace: ui-code
