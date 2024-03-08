@@ -69,7 +69,7 @@ spec:
     runAfter:
       - fetch-repo
     taskRef:
-      name: npm
+      name: npm-20-11-1
     workspaces:
     - name: source
       workspace: ui-code
@@ -83,7 +83,7 @@ spec:
     runAfter:
       - install-dependencies
     taskRef:
-      name: npm
+      name: npm-20-11-1
     workspaces:
       - name: source
         workspace: ui-code
@@ -299,4 +299,4 @@ spec:
   - name: deployment-repo-url
     value: https://github.com/Appkube-hrms/appkube-hrms-ui-deployment.git
   - name: cleanup-cloudformation
-    value: "true"
+    value: "false"
